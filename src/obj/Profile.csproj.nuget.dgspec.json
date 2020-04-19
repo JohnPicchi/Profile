@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Profile\\Profile\\Profile.csproj": {}
+    "C:\\Dev\\Profile\\src\\Profile.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Profile\\Profile\\Profile.csproj": {
+    "C:\\Dev\\Profile\\src\\Profile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Profile\\Profile\\Profile.csproj",
+        "projectUniqueName": "C:\\Dev\\Profile\\src\\Profile.csproj",
         "projectName": "Profile",
-        "projectPath": "C:\\Dev\\Profile\\Profile\\Profile.csproj",
+        "projectPath": "C:\\Dev\\Profile\\src\\Profile.csproj",
         "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Profile\\Profile\\obj\\",
+        "outputPath": "C:\\Dev\\Profile\\src\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
