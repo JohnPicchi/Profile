@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Profile", "src\Www\Profile.csproj", "{85C1F439-82F9-45E6-9C94-3A0E9152BFFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Profile", "src\Www\Profile.csproj", "{85C1F439-82F9-45E6-9C94-3A0E9152BFFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Www", "Www", "{141DDD71-98F7-4D63-AE80-67ACA30729E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{85C1F439-82F9-45E6-9C94-3A0E9152BFFA} = {141DDD71-98F7-4D63-AE80-67ACA30729E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {588F6646-7AE8-42DA-A845-A95E55488F89}
