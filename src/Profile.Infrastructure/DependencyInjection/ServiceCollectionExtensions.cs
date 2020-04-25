@@ -18,10 +18,7 @@ namespace Profile.Infrastructure.DependencyInjection
         .Where(t => t.GetInterfaces().Any(i => i.Name == nameof(IServiceConfiguration)));
 
       foreach(var type in types)
-      {
-        var serviceConfiguration = Activator.CreateInstance(type) as IServiceConfiguration;
-        serviceConfiguration.Configure(services);
-      }
+        (Activator.CreateInstance(type) as IServiceConfiguration).Configure(services);
     }
   }
 }
